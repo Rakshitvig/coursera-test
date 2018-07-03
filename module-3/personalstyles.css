@@ -15,7 +15,7 @@ body {
    height: 150px;
    margin: 0;
 }
- h1>div{
+h1>div{                              /* I am Rakshit */
   font-family: 'Lora',serif;
   color: #373737;
   font-size: 1.3em;
@@ -27,24 +27,24 @@ body {
   line-height: .75;
   margin-top: 20px;
 }
-div>h1{
+div>h1{                               /* Hi there!!! */
 margin-top: 10px;
 color:#373737;
 }
-#nav-list{
+#nav-list{                    /* About, projects, award, resume, contact (full block) */
   margin-top: 58px;
 }
-#nav-list a{
+#nav-list a{                          /* The link for eg. about, project */
   color: #000;
   text-align: center;
 }
 #nav-list a:hover{
-  background: #E7E7E7;
+  background: #e7e7e7;
 }
-#nav-list a span{ /*icon font*/
+#nav-list a span{                    /*icon font*/
   font-size: 1.8em;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{      /*Border of teh collapsable button*/
   border: 1px solid #373737;
 }
 .navbar-header button.navbar-toggle{
@@ -52,32 +52,27 @@ color:#373737;
   margin-top: -65px;
 }
 
+
 @media (min-width: 1200px) {
-  #relative{
+  #relative{                            /*the switch button*/
 position: relative;
 left:100%;
 top: -28px;
-
+width: 4vw;
+height: 4vw;
 }
-.container .jumbotron {
- background: url('../images/blackwhite1.jpeg') no-repeat;
- height: 675px;
-    /*box-shadow: 0 0 50px #fff;
-    /*border: 2px solid #3F0C1F;*/
- width: 1000px;
- margin-left: 67px;
- margin-top: 1px;
- }
 }
 @media (min-width: 992px) and (max-width: 1199px){
    #relative{
 position: relative;
 left:100%;
 top: -26px;
+width: 4vw;
+height: 4vw;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
-#nav-list a span{ /*icon font*/
+#nav-list a span{                                   /*icon font*/
   font-size: 1em;
   margin-right: 0px;
 } 
@@ -93,17 +88,18 @@ font-size: 1.2em;
 }
 #header-nav{
   height: 125px;
-  
-  }
+}
 #logo-img{
    height: 125px;
    margin: 0;
-   background: url('../images/original5.jpg') no-repeat;
+   background: url('../images/original5black.jpg') no-repeat;
 }
 #relative{
 position: relative;
 left:100%;
 top: -22px;
+width: 4vw;
+height: 4vw;
 }
 }
 
@@ -118,7 +114,7 @@ top: -22px;
 }
 #logo-img{
    margin-right: -80px;
-   background: url('../images/original6.jpg') no-repeat;
+   background: url('../images/original6black.jpg') no-repeat;
 }
 .navbar-header button.navbar-toggle{
   clear: both;
@@ -133,13 +129,15 @@ top: -22px;
 }
 #relative{
 position: absolute;
-left: 47.5%;
-top: 98px;
+left: 48.5%;
+top: 102px;
+width: 4vw;
+height:4vw;
 }
 }
 #seperation{
   height:3px;
-  width:47.5vw;
+  width:48.5vw;
   background-color: #000;
   margin-top: -20px;
 

@@ -9,12 +9,7 @@ body {
 	border: 0;
   background-color: #EDF2F2;
   }
-#logo-img{
-   background: url('../images/original4black.jpg') no-repeat;
-   width: 150px;
-   height: 150px;
-   margin: 0;
-}
+
 h1>div{                              /* I am Rakshit */
   font-family: 'Lora',serif;
   color: #373737;
@@ -61,6 +56,12 @@ top: -28px;
 width: 4vw;
 height: 4vw;
 }
+#logo-img{
+   background: url('../images/original4black.jpg') no-repeat;
+   width: 150px;
+   height: 150px;
+   margin: 0;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px){
    #relative{
@@ -69,6 +70,12 @@ left:100%;
 top: -26px;
 width: 4vw;
 height: 4vw;
+}
+#logo-img{
+   background: url('../images/original4black.jpg') no-repeat;
+   width: 150px;
+   height: 150px;
+   margin: 0;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -86,10 +93,8 @@ font-size: 1.2em;
   margin-right: -15px;
   margin-top: -16px;
 }
-#header-nav{
-  height: 125px;
-}
 #logo-img{
+  width: 150px;
    height: 125px;
    margin: 0;
    background: url('../images/original5black.jpg') no-repeat;
@@ -106,13 +111,15 @@ height: 4vw;
 @media (max-width: 767px){
   .navbar-brand h1{
   padding-top: -10px;
-  font-size: 4.5vw;   /*1vw=1% of viewport*/
+  font-size: 4.2vw;   /*1vw=1% of viewport*/
   left: 10px;
 }
-#header-nav{
-  height: 110px;
-}
+/*#header-nav {
+    height: 110px;
+  }*/
 #logo-img{
+  height: 110px;
+  width:145px;
    margin-right: -80px;
    background: url('../images/original6black.jpg') no-repeat;
 }
@@ -130,7 +137,7 @@ height: 4vw;
 #relative{
 position: absolute;
 left: 48.5%;
-top: 102px;
+top: 105px;
 width: 4vw;
 height:4vw;
 }
@@ -150,4 +157,3 @@ height:4vw;
   float: right;
   padding-top: 20px;
 }
- 
